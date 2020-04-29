@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorldApp.DailUp">
+   
+       <Grid x:Name="myGrid" BackgroundColor="Black" Padding="10"  >
+        <!--     <Label x:Name="label" HeightRequest="20" FontSize="50" FontAttributes="Bold" Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="3" TextColor="White"/>
+            
+            <Button Clicked="Button_Clicked" Grid.Row="1" Grid.Column="0" BorderRadius="12" Text="1"/>
+            <Button Clicked="Button_Clicked" Grid.Row="1" Grid.Column="1" BorderRadius="12" Text="2"/>
+            <Button Clicked="Button_Clicked" Grid.Row="1" Grid.Column="2" BorderRadius="12" Text="3"/>
+
+            <Button Clicked="Button_Clicked" Grid.Row="2" Grid.Column="0" BorderRadius="12" Text="4"/>
+            <Button Clicked="Button_Clicked" Grid.Row="2" Grid.Column="1" BorderRadius="12" Text="5"/>
+            <Button Clicked="Button_Clicked" Grid.Row="2" Grid.Column="2" BorderRadius="12" Text="6"/>
+
+            <Button Clicked="Button_Clicked" Grid.Row="3" Grid.Column="0" BorderRadius="12" Text="7"/>
+            <Button Clicked="Button_Clicked" Grid.Row="3" Grid.Column="1" BorderRadius="12" Text="8"/>
+            <Button Clicked="Button_Clicked" Grid.Row="3" Grid.Column="2" BorderRadius="12" Text="9"/>
+
+            <Button Clicked="Button_Clicked" Grid.Row="4" Grid.Column="1" BorderRadius="12" Text="0"/>
+            <Button Grid.Row="5" Grid.ColumnSpan="3" BorderRadius="12" Text="Dail" BackgroundColor="GreenYellow"/>-->
+        </Grid>
+ 
+</ContentPage>

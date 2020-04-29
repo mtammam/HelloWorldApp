@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorldApp.AbsolutTest">
+
+    <AbsoluteLayout>
+        <StackLayout x:Name="xyz" AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All" BackgroundColor="White">
+            <Label Text="Welcom Ruby" HorizontalOptions="Center"/>
+            <Button Text="Sigin in" BackgroundColor="#FFBE33" TextColor="Wheat" CornerRadius="12" HorizontalOptions="Fill"/>
+        </StackLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.3,1,1,0.7" Opacity="0.9" AbsoluteLayout.LayoutFlags="All" >
+            <Label Text=" Register Now" HorizontalOptions="Center"/>
+            <Button Text="Sigin in" BackgroundColor="#FFBE33" TextColor="Wheat" CornerRadius="12" HorizontalOptions="Fill"/>
+
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

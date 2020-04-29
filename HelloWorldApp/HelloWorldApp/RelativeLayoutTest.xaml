@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorldApp.RelativeLayoutTest">
+    <!--<RelativeLayout>
+        <BoxView x:Name="boxView1" BackgroundColor="Silver"
+                    RelativeLayout.WidthConstraint="{ConstraintExpression 
+                    Factor=1,
+                    Type=RelativeToParent,
+                    Property=Width}"
+                 
+                    RelativeLayout.HeightConstraint="{ConstraintExpression 
+                    Type=RelativeToParent,
+                    Factor=0.3,
+                    Property=Height}"/>
+
+        <Label HorizontalOptions="Center" Text="$11.95" TextColor="Black" FontSize="30"
+               RelativeLayout.YConstraint="{ConstraintExpression 
+                    Type=RelativeToView,
+                    ElementName=boxView1,
+                    Factor=0.3,
+                    Constant=0,
+                    Property=Height}" 
+               RelativeLayout.XConstraint="{ConstraintExpression 
+                    Type=RelativeToView,
+                    Factor=0.3,
+                    ElementName=boxView1,
+                    Property=Width
+            }"
+              />
+        <Button Text="add 99.9 Credit?" TextColor="DarkBlue" FontSize="15" HorizontalOptions="Center" RelativeLayout.YConstraint="{ConstraintExpression 
+            Type=RelativeToView ,
+            ElementName=boxView1,
+            Factor=0.6,
+            Property=Height}"
+                RelativeLayout.XConstraint="{ConstraintExpression 
+            Type=RelativeToView,
+            ElementName=boxView1,
+            Factor=0.2,
+            Property=Width
+            }"
+                />
+
+    </RelativeLayout>-->
+</ContentPage>

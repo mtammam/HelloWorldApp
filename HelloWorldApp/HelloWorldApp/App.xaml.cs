@@ -11,7 +11,7 @@ namespace HelloWorldApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AddImageFromResourceFolder();
         }
 
         protected override void OnStart()

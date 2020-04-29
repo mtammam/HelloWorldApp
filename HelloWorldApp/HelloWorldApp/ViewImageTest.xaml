@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorldApp.ViewImageTest">
+    <AbsoluteLayout>
+        <ActivityIndicator AbsoluteLayout.LayoutBounds="0.5,0.5,100,100" AbsoluteLayout.LayoutFlags="PositionProportional" IsRunning="{Binding Source={Reference Image}, Path=IsLoading}"></ActivityIndicator>
+        <Image x:Name="Image" Source="https://as2.ftcdn.net/jpg/03/31/29/47/500_F_331294711_52tWESyGar3WbxAfbH9jD6IbUN9oPEfK.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+    </AbsoluteLayout>
+</ContentPage>
