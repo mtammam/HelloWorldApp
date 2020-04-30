@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace HelloWorldApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -15,7 +16,7 @@ namespace HelloWorldApp
 		public AddImageFromResourceFolder ()
 		{
 			InitializeComponent ();
-            Image1.Source =ImageSource.FromFile( "HelloWorldApp.IMages.image1.jpg");
+           // Image1.Source =ImageSource.FromFile( "HelloWorldApp.IMages.image1.jpg");
             
 		}
 	}
